@@ -71,34 +71,61 @@
       </nav>
       <!--/.Navbar -->
 
-    <div class="view jarallax" style="height: 50vh;">
-      <img class="jarallax-img" src="img/parallax1.jpg" alt="">
-      <div class="mask rgba-blue-slight">
-        <div class="container flex-center text-center">
-          <div class="row mt-5">
-            <div class="col-md-12 col-xl-8 mx-auto wow fadeIn">
-              <h1 class="display-3 font-weight-bold mb-2 wow fadeInDown" data-wow-delay="0.3s">Festivos en Colombia</h1>
-            </div>
-          </div>
-        </div>
+   
+
+
+  
+
+<!-- Default form register -->
+<form class="text-center border border-light p-5" action="#!">
+
+  <p class="h4 mb-4">Registrarse</p>
+
+  <div class="form-row mb-4">
+      <div class="col">
+          <!-- First name -->
+          <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nombres">
       </div>
-    </div>
+      <div class="col">
+          <!-- Last name -->
+          <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Apellidos">
+      </div>
+  </div>
+
+  <!-- E-mail -->
+  <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+  <!-- Password -->
+  <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+  <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+      Al menos 10 caracteres uno especial y un numero.
+  </small>
+
+  
+
+  <!-- Newsletter -->
+  <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+      <label class="custom-control-label" for="defaultRegisterFormNewsletter">¿Recibir Notificaciones?</label>
+  </div>
+
+  <!-- Sign up button -->
+  <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+  <!-- Social register -->
+  <p>or sign up with:</p>
+
+  <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+  <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+  <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+  <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+
+  <hr>
 
 
 
-    <div class="container2">
-      <form action="/servidor.php" method="GET">
-        <label for="username">
-          Usuario <br>
-          <input type="text" name="uname" id="uname">
-        </label>
-        <label for="password">
-          Contraseña <br>
-          <input type="password" name="pass" id="pass">
-        </label>
-        <input type="submit" value="Enviar">
-      </form>
-    </div>
+</form>
+
 
 
 
