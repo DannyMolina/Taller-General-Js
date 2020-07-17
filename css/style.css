@@ -1,14 +1,29 @@
-.container1{
-  height: 90%;
-  width: 90%;
-  text-align: center;
+body{
+    background-color: gray;
+}
+.content{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+     
+}
+.cont-center{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: beige;
 }
 
-.container2{
-    display: flex;
-    flex: left;
-    height: 200px;
-    width: 200px;
-    background-color: aquamarine;
+
+.form{
+    width: 700px;
+    border: solid 3px #004933;
+    border-radius: 8rem;
+}
+
+.error{
+  border: 3px red solid;
 }
