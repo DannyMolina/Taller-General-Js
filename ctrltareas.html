@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Ejercicio 2 (Compensacion)</title>
+  <title>Agregar Tareas</title>
   <!-- MDB icon -->
   <link rel="icon" href="https://img.icons8.com/color/16/000000/armored-helmet.png" type="image/x-icon">
   <!-- Font Awesome -->
@@ -95,14 +95,37 @@
         
    
 
-      <div class="cont-center heavy-rain-gradient vh-100">
+      <div class="cajon">
         
+
+          <div class="principal">
+            <div class="wrap">
+              <form class="formulario" action="">
+                <input type="text" id="tareaInput" placeholder="Agrega tu tarea">
+                <input type="button" class="boton" id="btn-agregar" value="Agregar Tarea">
+              </form>
+            </div>
+          </div>
+        
+          <div class="tareas">
+            <div class="wrap">
+              <ul class="lista" id="lista">
+                <li><a href="#">1 Tarea de prueba, oprimiendome me puedes eliminar.</a></li>
+                <li><a href="#">2 Tarea de prueba, oprimiendome me puedes eliminar.</a></li>
+                <li><a href="#">3 Tarea de prueba, oprimiendome me puedes eliminar.</a></li>
+              </ul>
+            </div>
+
+
+        </div>
+
       </div>
+
         
 </div>
 
 
-<footer class="page-footer sticky-stop font-small teal darken-4">
+<footer class="page-footer fixed-bottom font-small teal darken-4">
   <div class="footer-copyright text-center py-3">
     <a href="">Danny Molina</a>
   </div>
@@ -119,7 +142,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript" src="js/validaciones.js"></script>
+  <script type="text/javascript" src="js/tareas.js"></script>
 
 </body>
 </html>

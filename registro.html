@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Ejercicio 2 (Compensacion)</title>
+  <title>Ejercicio 2 (Compensacion) Y 3 </title>
   <!-- MDB icon -->
   <link rel="icon" href="https://img.icons8.com/color/16/000000/armored-helmet.png" type="image/x-icon">
   <!-- Font Awesome -->
@@ -37,9 +37,9 @@
           <span class="sr-only">(current)</span>
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="ctrltareas.html">Agregar Tareas</a>
+          <a class="dropdown-item" href="#">Vacio</a>
+          <a class="dropdown-item" href="#">Vacios</a>
         </div>
       </li>
       <li class="nav-linea">
@@ -90,25 +90,25 @@
         
    
 
-      <div class="cont-center heavy-rain-gradient vh-100">
+      <div class="contcenter  vh-100">
         <!-- Default form register -->
-                      <form class="text-center heavy-rain-gradient p-4 form"  action="#" name="registro">
+                      <form class="text-center heavy-rain-gradient p-4 form"  action="#" name="registro" onsubmit="validacionFormulario()">
 
                         <p class="h4 mb-4">Registrarse</p>
 
                         <div class="form-row mb-4">
                             <div class="col">
                                 
-                                <input type="text" name="nombre" class="form-control" placeholder="Nombres">
+                                <input type="text" id="nombre" class="form-control" placeholder="Nombres">
                             </div>
                             <div class="col">
                               
-                                <input type="text" name="apellido" class="form-control" placeholder="Apellidos">
+                                <input type="text" id="apellido" class="form-control" placeholder="Apellidos">
                             </div>
                         </div>
 
                         
-                        <input type="email" id="Email" class="form-control mb-4" placeholder="E-mail">
+                        <input id="email" class="form-control mb-4" placeholder="E-mail">
 
                       
                         <input type="password" id="contrasena" class="form-control" placeholder="Password">
@@ -125,7 +125,7 @@
                         </div>
 
                         
-                        <button  id="validarRegistro" class="btn teal  my-4 btn-block " type="submit" onclick="validacionFormulario()" >Registrar</button>
+                        <button  id="validarRegistro" class="btn teal  my-4 btn-block " type="submit" >Registrar</button>
 
                         
                         <p>Registrarse con:</p>
@@ -162,7 +162,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/validaciones.js"></script>
 
 </body>
 </html>
